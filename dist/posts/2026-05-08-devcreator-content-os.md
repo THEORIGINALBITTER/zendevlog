@@ -37,3 +37,9 @@ Bisher war das zu stark von spontaner Energie abhängig. Das ist nicht skalierba
 - Welche Hook-Formulierungen wirklich Reichweite ziehen
 
 Wenn du die nächsten Iterationen live sehen willst: Newsletter unten im Post.
+
+## Weiterführende Links
+
+- Produktseite: [ZenPost](https://zenpost.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

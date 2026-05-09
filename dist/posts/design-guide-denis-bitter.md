@@ -249,3 +249,9 @@ Und für alle, die verstehen wollen, warum ZenDev so aussieht wie es aussieht.
 > Design ist, was etwas **verständlich** macht.
 
 — Denis Bitter
+
+## Weiterführende Links
+
+- Produktseite: [ZenPost](https://zenpost.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

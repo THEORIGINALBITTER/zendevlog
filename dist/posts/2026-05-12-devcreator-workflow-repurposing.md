@@ -31,3 +31,9 @@ Weniger Reibung, mehr Output, gleiche Stimme über alle Kanäle.
 ## Nächster Schritt
 
 Ich baue eine kleine Hook-Library und teste jede Woche die besten Formulierungen.
+
+## Weiterführende Links
+
+- Produktseite: [ZenPost](https://zenpost.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

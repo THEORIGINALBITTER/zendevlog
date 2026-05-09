@@ -32,3 +32,9 @@ und mehr wie ein Operating Log mit Marken-Charakter.
 
 Einmal im Monat harte Review:
 Was performt, was wird entfernt, was wird verdoppelt.
+
+## Weiterführende Links
+
+- Produktseite: [ZenPost](https://zenpost.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

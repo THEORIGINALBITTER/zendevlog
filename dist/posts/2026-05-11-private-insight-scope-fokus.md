@@ -34,3 +34,9 @@ Weniger Kontextwechsel, klarere Kommunikation, bessere Ergebnisse pro Woche.
 ## Nächster Schritt
 
 Ich veröffentliche meine 14-Tage-Prioritäten öffentlich und richte die Daily Logs daran aus.
+
+## Weiterführende Links
+
+- Produktseite: [ZenPost](https://zenpost.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

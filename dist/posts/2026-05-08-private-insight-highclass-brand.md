@@ -34,3 +34,9 @@ ZenPost Studio, ZenOrbit und weitere Apps bleiben der technische Motor.
 ZenDev ist die sichtbare Erzählung darüber: Was gebaut wurde, warum es gebaut wurde und wohin es führt.
 
 Wenn dich dieser Aufbau interessiert: Newsletter unten im Post.
+
+## Weiterführende Links
+
+- Produktseite: [ZenPost](https://zenpost.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

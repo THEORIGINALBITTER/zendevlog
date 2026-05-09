@@ -86,3 +86,9 @@ Geplant:
 ZenDev startet also nicht mit einem fertigen Produkt, sondern mit einer sauberen Entscheidung:
 
 > Entwicklung wird ab jetzt nicht nur gebaut, sondern auch nachvollziehbar dokumentiert.
+
+## Weiterführende Links
+
+- Produktseite: [ZenOrbit](https://zenorbit.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

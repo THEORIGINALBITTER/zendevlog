@@ -38,3 +38,9 @@ Design-Details sind wichtig, aber Mobile-UX gewinnt nur mit realen Nutzungsszena
 Zwei Varianten gegeneinander testen und die finalen Defaults für ZenOrbit festlegen.
 
 Wenn du die nächste Iteration sehen willst: Newsletter unten im Post.
+
+## Weiterführende Links
+
+- Produktseite: [ZenOrbit](https://zenorbit.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

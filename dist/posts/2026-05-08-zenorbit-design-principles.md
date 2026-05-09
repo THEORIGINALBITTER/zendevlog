@@ -102,3 +102,9 @@ Genau diese Verbindung macht aus Frontend keine reine Implementierung, sondern e
 Und genau dort beginnt der Unterschied zwischen:
 - einer schönen Oberfläche
 - und einem konsistenten Produktuniversum.
+
+## Weiterführende Links
+
+- Produktseite: [ZenOrbit](https://zenorbit.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

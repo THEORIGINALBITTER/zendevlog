@@ -34,3 +34,9 @@ ZenDev ist jetzt technisch bereit für saubere SEO-Signale und bessere Social-Pr
 
 Jetzt beginnt die zweite Hälfte: messen, vergleichen, verbessern.
 Ich tracke CTR je Post und schärfe Hook + Subtitle systematisch.
+
+## Weiterführende Links
+
+- Produktseite: [ZenPost](https://zenpost.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+

@@ -54,3 +54,9 @@ Im nächsten Evidence-Update kommen reale Zahlen rein:
 - subjektive Klarheit auf 1–10
 
 Dann entscheide ich nicht nach Geschmack, sondern nach Wirkung.
+
+## Weiterführende Links
+
+- Produktseite: [ZenOrbit](https://zenorbit.denisbitter.de/)
+- ZenApp Überblick: [denisbitter.de/zenapp](https://www.denisbitter.de/zenapp)
+
