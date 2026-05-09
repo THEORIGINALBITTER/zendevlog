@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── Primary SEO ──────────────────────────────────────── -->
+  <title>ZenDev Log — Dev Tagebuch von Denis Bitter Code + Design</title>
+  <meta name="description" id="metaDescription" content="ZenDev Log ist das öffentliche Entwicklertagebuch von Denis Bitter. Ich dokumentiere ZenPost Studio, ZenOrbit und weitere Produkte ehrlich, iterativ und nah am echten Build-Prozess." />
+  <meta name="author" content="Denis Bitter" />
+  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <link rel="canonical" id="metaCanonical" href="https://zenpostapp.denisbitter.de/" />
+
+  <!-- ── Open Graph ───────────────────────────────────────── -->
+  <meta property="og:type" id="metaOgType" content="website" />
+  <meta property="og:url" id="metaOgUrl" content="https://zenpostapp.denisbitter.de/" />
+  <meta property="og:title" id="metaOgTitle" content="ZenDev Log — Dev Tagebuch von Denis Bitter Code + Design" />
+  <meta property="og:description" id="metaOgDescription" content="Öffentliches Entwicklertagebuch über ZenPost Studio, ZenOrbit und weitere Produktentwicklung von Denis Bitter." />
+  <meta property="og:image" id="metaOgImage" content="https://zenpostapp.denisbitter.de/assets/favicon-512x512.png" />
+  <meta property="og:image:alt" id="metaOgImageAlt" content="ZenDev Log — Denis Bitter" />
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:site_name" content="ZenDev Log" />
+
+  <!-- ── Twitter Card ─────────────────────────────────────── -->
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" id="metaTwitterTitle" content="ZenDev Log — Dev Tagebuch von Denis Bitter Code + Design" />
+  <meta name="twitter:description" id="metaTwitterDescription" content="Öffentliches Entwicklertagebuch über ZenPost Studio, ZenOrbit und weitere Produktentwicklung." />
+  <meta name="twitter:image" id="metaTwitterImage" content="https://zenpostapp.denisbitter.de/assets/favicon-512x512.png" />
+  <meta name="twitter:image:alt" id="metaTwitterImageAlt" content="ZenDev Log — Denis Bitter" />
+  <meta name="twitter:site" content="@denisbitter" />
+
+  <!-- ── Favicons & Icons ─────────────────────────────────── -->
+  <link rel="icon" type="image/svg+xml" href="assets/favicon-zen.svg?v=2026-05-08-favzen1" />
+  <link rel="alternate icon" type="image/x-icon" href="assets/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png" />
+  <link rel="manifest" href="assets/site.webmanifest" />
+  <meta name="theme-color" content="#fff" />
+  <meta name="msapplication-TileColor" content="#1a1a1a" />
+  <meta name="msapplication-TileImage" content="assets/favicon-256x256.png" />
+
+  <!-- ── Fonts ────────────────────────────────────────────── -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,300;1,400&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/style.css?v=2026-05-08-cssfix1" />
+  <script type="application/ld+json" id="ldJson">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "ZenDev Log",
+    "url": "https://zenpostapp.denisbitter.de/",
+    "description": "Das öffentliche Entwicklertagebuch von Denis Bitter."
+  }
+  </script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-VFHSZZ2569"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-VFHSZZ2569');
+  </script>
+  <script>
+    (function() {
+      var saved = localStorage.getItem('zp-theme');
+      var prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+      var theme = saved || (prefersDark ? 'dark' : 'light');
+      if (theme === 'light') document.documentElement.setAttribute('data-theme', 'light');
+    })();
+  </script>
+</head>
+<body>
+
+  <!-- ── Header ─────────────────────────────────────────── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/" class="logo" onclick="navigate('/'); return false;">
+        <span class="logo-dot">禅</span>
+        <span class="logo-name">ZenDev Log</span>
+      </a>
+      <nav class="site-nav">
+        <a href="/" class="nav-link" onclick="navigate('/'); return false;">Home</a>
+        <div class="nav-dropdown" id="navDropdownContent">
+          <button class="nav-link nav-dropdown-trigger" onclick="toggleNavDropdown('navDropdownContent')">Content ▾</button>
+          <div class="nav-dropdown-menu">
+            <div class="nav-dropdown-menu-inner">
+              <a href="/tag/devlog" class="nav-dropdown-item" onclick="navigate('/tag/devlog'); return false;">Dev Log</a>
+              <a href="/tag/zenpost" class="nav-dropdown-item" onclick="navigate('/tag/zenpost'); return false;">ZenPost Studio</a>
+              <a href="/tag/zenorbit" class="nav-dropdown-item" onclick="navigate('/tag/zenorbit'); return false;">ZenOrbit</a>
+              <a href="/tag/release" class="nav-dropdown-item" onclick="navigate('/tag/release'); return false;">Release</a>
+              <a href="/tag/devcreator" class="nav-dropdown-item" onclick="navigate('/tag/devcreator'); return false;">DevCreator</a>
+              <a href="/tag/private-insight" class="nav-dropdown-item" onclick="navigate('/tag/private-insight'); return false;">Private Insight</a>
+              <a href="/tag/brand" class="nav-dropdown-item" onclick="navigate('/tag/brand'); return false;">Brand</a>
+              <a href="/tag/daily-log" class="nav-dropdown-item" onclick="navigate('/tag/daily-log'); return false;">Daily Log</a>
+            </div>
+          </div>
+        </div>
+        <a href="/about" class="nav-link" onclick="navigate('/about'); return false;">About</a>
+        <a href="/post/design-guide-denis-bitter" class="nav-link" onclick="navigate('/post/design-guide-denis-bitter'); return false;">Design Guide</a>
+        <a href="https://denisbitter.de" target="_blank" rel="noopener" class="nav-link nav-external">Denis Bitter ↗</a>
+      </nav>
+      <div class="header-social">
+        <a href="https://www.linkedin.com/in/denisbitter" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+           <a href="https://github.com/THEORIGINALBITTER" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="https://www.instagram.com/denisbitter" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@denisbitter" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+        </a>
+     
+      </div>
+      <button class="theme-toggle" id="themeToggle" aria-label="Theme wechseln" title="Light / Dark">
+        <svg id="themeIconMoon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor" stroke="none" style="display:none"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        <svg id="themeIconSun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      </button>
+      <button class="nav-toggle" id="navToggle" aria-label="Menü">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ── Main Content ────────────────────────────────────── -->
+  <main id="app">
+    <div class="loading-state">
+      <span class="loading-dot"></span>
+    </div>
+  </main>
+
+  <!-- ── Footer ─────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="logo-dot">禅</span>
+        <span class="footer-left-text" >ZenDev Log · <span class="footer-left-2" >Dev Tagebuch von Denis Bitter · Code + Design</span> </span>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.linkedin.com/in/denisbitter" target="_blank" rel="noopener" aria-label="LinkedIn" class="social-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+        </a>
+         <a href="https://github.com/THEORIGINALBITTER" target="_blank" rel="noopener" aria-label="GitHub" class="social-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+        </a>
+        <a href="https://www.instagram.com/denisbitter" target="_blank" rel="noopener" aria-label="Instagram" class="social-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+        <a href="https://www.youtube.com/@denisbitter" target="_blank" rel="noopener" aria-label="YouTube" class="social-icon">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-1.96C18.88 4 12 4 12 4s-6.88 0-8.59.46A2.78 2.78 0 0 0 1.46 6.42 29 29 0 0 0 1 12a29 29 0 0 0 .46 5.58 2.78 2.78 0 0 0 1.95 1.96C5.12 20 12 20 12 20s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96A29 29 0 0 0 23 12a29 29 0 0 0-.46-5.58z"/><polygon points="9.75 15.02 15.5 12 9.75 8.98 9.75 15.02"/></svg>
+        </a>
+       
+      </div>
+    </div>
+  </footer>
+
+  <!-- ── Templates ──────────────────────────────────────── -->
+
+  <!-- Homepage template -->
+  <template id="tpl-home">
+    <section class="home-hero">
+      <p class="hero-label">ZenDev · Building in Public</p>
+      <p class="hero-title">Jeden Tag bauen. 
+        <br />
+        <span>Jeden Schritt dokumentieren.</span></p>
+      <p class="hero-sub">Ich baue, was ich brauche.<br />Und schreibe auf, was dabei passiert.</p>
+      <p class="hero-note">Hier läuft der echte Build-Prozess: ZenPost Studio, ZenOrbit und weitere Micro-Apps parallel. Auf <a href="https://denisbitter.de" target="_blank" rel="noopener">denisbitter.de</a> siehst du die verdichtete Hauptseite.</p>
+      <div class="hero-pillars" aria-label="ZenDev Fokus">
+        <span class="hero-pill">Parallel Builds</span>
+        <span class="hero-pill">DevCreator Kanal</span>
+        <span class="hero-pill">Private Einblicke</span>
+      </div>
+      <img src="https://denisbitter.de/images/uschrift" alt="Denis Bitter" class="hero-signature" />
+      <div class="hero-actions">
+        <a href="/tag/devlog" class="hero-cta" onclick="navigate('/tag/devlog'); return false;">Dev Logs lesen →</a>
+        <a href="https://denisbitter.de" target="_blank" rel="noopener" class="hero-link">Zur Hauptseite ↗</a>
+      </div>
+    </section>
+
+    <section class="home-paths" aria-label="Einstiege">
+      <article class="path-card">
+        <p class="path-kicker">Neu hier</p>
+        <h2 class="path-title">Was ist ZenDev Log?</h2>
+        <p class="path-text">Mission, Produktkontext und der Aufbau zur HighClass Brand in einem klaren Einstieg.</p>
+        <a href="/about" class="path-link" onclick="navigate('/about'); return false;">Zum Überblick →</a>
+      </article>
+      <article class="path-card">
+        <p class="path-kicker">Build Feed</p>
+        <h2 class="path-title">Was läuft parallel?</h2>
+        <p class="path-text">Schneller Zugriff auf aktuelle Dev Logs zu ZenPost Studio, ZenOrbit und weiteren Apps.</p>
+        <a href="/tag/devlog" class="path-link" onclick="navigate('/tag/devlog'); return false;">Parallel Builds öffnen →</a>
+      </article>
+      <article class="path-card">
+        <p class="path-kicker">Creator Roadmap</p>
+        <h2 class="path-title">Wohin entwickelt sich das?</h2>
+        <p class="path-text">DevCreator Kanal, mehr private Einblicke und der Ausbau zur HighClass Brand.</p>
+        <a href="https://denisbitter.de" target="_blank" rel="noopener" class="path-link">Brand Hub öffnen ↗</a>
+      </article>
+    </section>
+
+    <section class="ai-proof" aria-label="AI Design Prozess">
+      <p class="ai-proof-label">AI Design · Denis Directed</p>
+      <div class="ai-proof-steps">
+        <span class="ai-step">01 Brief</span>
+        <span class="ai-step">02 Iteration</span>
+        <span class="ai-step">03 Entscheidung</span>
+        <span class="ai-step">04 Ship</span>
+      </div>
+      <p class="ai-proof-text">Das UI entsteht mit AI-Unterstützung, aber jede Richtung, Auswahl und finale Entscheidung ist bewusst von mir geführt. Ziel: Systeme bauen, öffentlich zeigen und als Brand sauber verdichten.</p>
+    </section>
+
+    <section class="weekly-build" id="weeklyBuild" aria-label="Diese Woche gebaut"></section>
+
+    <section class="post-grid" id="postGrid">
+      <!-- Posts inserted by JS -->
+    </section>
+  </template>
+
+  <!-- Post template -->
+  <template id="tpl-post">
+    <article class="post-page">
+      <div class="post-header">
+        <div class="post-meta-top">
+          <span class="post-tag" id="postTag"></span>
+        </div>
+        <h1 class="post-title" id="postTitle"></h1>
+        <p class="post-subtitle" id="postSubtitle"></p>
+        <div class="post-byline">
+          <div class="author-avatar">
+            <img src="/assets/deni_round-384.webp" alt="Denis Bitter" class="author-avatar-img" />
+          </div>
+          <div class="byline-info">
+            <span class="byline-author">Denis Bitter</span>
+            <span class="byline-date" id="postDate"></span>
+          </div>
+          <span class="byline-read" id="postReadTime"></span>
+        </div>
+        <div class="devlog-snapshot" id="postDevlogMeta" style="display:none"></div>
+      </div>
+      <div class="post-cover" id="postCover" style="display:none">
+        <img id="postCoverImg" alt="" />
+      </div>
+      <section class="post-strategy" id="postStrategy" style="display:none"></section>
+      <div class="post-body" id="postBody"></div>
+      <div class="post-signature">
+        <img src="https://denisbitter.de/images/uschrift" alt="Denis Bitter" class="signature-img" />
+      </div>
+      <section class="post-social-snippets" id="postSocialSnippets" style="display:none"></section>
+      <div class="post-newsletter">
+        <p class="newsletter-label">Newsletter</p>
+        <h2 class="newsletter-heading">Neuer Post? Kommt direkt.</h2>
+        <p class="newsletter-sub">Kein Spam. Jederzeit abbestellbar.</p>
+        <form class="newsletter-form" onsubmit="subscribeNewsletter(event)">
+          <input type="email" id="newsletterEmail" class="newsletter-input" placeholder="deine@email.de" autocomplete="email" required />
+          <button type="submit" class="newsletter-submit">Anmelden</button>
+          <label class="newsletter-consent">
+            <input type="checkbox" id="newsletterConsent" required />
+            <span>Ich habe die <a href="https://denisbitter.de/datenschutz" target="_blank" rel="noopener">Datenschutzerklärung</a> gelesen und stimme zu.</span>
+          </label>
+        </form>
+        <p id="newsletterMsg" class="newsletter-msg" aria-live="polite"></p>
+      </div>
+      <div class="post-footer-nav">
+        <a href="/" class="back-link" onclick="navigate('/'); return false;">← Alle Posts</a>
+      </div>
+    </article>
+  </template>
+
+  <!-- About template -->
+  <template id="tpl-about">
+    <article class="post-page">
+      <div class="post-header">
+        <div class="post-meta-top">
+          <span class="post-tag">About</span>
+        </div>
+        <h1 class="post-title">ZenDev Log</h1>
+        <p class="post-subtitle">Mein öffentliches Entwicklertagebuch über ZenPost Studio, ZenOrbit und neue Softwareprodukte.</p>
+        <div class="post-byline">
+          <div class="author-avatar">
+            <img src="/assets/deni_round-384.webp" alt="Denis Bitter" class="author-avatar-img" />
+          </div>
+          <div class="byline-info">
+            <span class="byline-author">Denis Bitter</span>
+            <span class="byline-date">Indie FullStack Developer · Hamburg</span>
+          </div>
+          <a href="https://denisbitter.de" target="_blank" rel="noopener" class="byline-cta">Website ↗</a>
+        </div>
+      </div>
+      <div class="post-body">
+        <p>ZenDev Log ist die öffentliche Schicht über meiner Produktentwicklung. Hier dokumentiere ich <strong>ZenPost Studio, ZenOrbit und neue interne Experimente</strong> als echtes Entwicklertagebuch statt als glattgebügeltes Marketing.</p>
+
+        <h2>Was hier dokumentiert wird</h2>
+        <ul>
+          <li><strong>Daily Logs</strong> — was ich an einem Tag gebaut habe, was blockiert und was als Nächstes kommt</li>
+          <li><strong>Architektur-Notizen</strong> — warum ich bestimmte technische Richtungen einschlage</li>
+          <li><strong>Releases</strong> — was live gegangen ist, was sich geändert hat und was noch fehlt</li>
+          <li><strong>Build in Public</strong> — inklusive Fehler, Umwege und Learnings</li>
+        </ul>
+
+        <h2>Die Produkte dahinter</h2>
+        <p><strong>ZenPost Studio</strong> ist meine lokale KI-Content-App. <strong>ZenOrbit</strong> ist mein Builder für radiale Menüs. Daneben entstehen weitere Tools, Libraries und interne Workflows, die hier ebenfalls auftauchen werden.</p>
+
+        <h2>Warum dieses Format</h2>
+        <p>Ich will alle Entwicklung als nachvollziehbares Tagebuch festhalten: Tag für Tag, mit Fokus, Status, Blockern und den nächsten Schritten. So bleibt der Prozess sichtbar — für mich und für alle, die Produktentwicklung nicht nur im fertigen Zustand sehen wollen.</p>
+
+        <h2>Design Guide</h2>
+        <p>Hinter ZenDev steht eine klare Designlinie: <strong>Code + Design als Einheit</strong>. Das Kanji <strong>禅</strong> im Logo ist kein Zufall — es steht für Konzentration, Klarheit und Fokus. Den vollständigen Hintergrund zur Designsprache, Farbwelt, Typografie und Motion findest du im <a href="/post/design-guide-denis-bitter" onclick="navigate('/post/design-guide-denis-bitter'); return false;">Design Guide →</a></p>
+
+        <h2>Sag Hallo</h2>
+        <p>Feedback, Fragen, Ideen → <a href="https://denisbitter.de/contact" target="_blank" rel="noopener">Schreib mir</a> oder schau auf 
+          <a href="https://github.com/THEORIGINALBITTER" target="_blank" rel="noopener">GitHub</a>,
+           <a href="https://www.linkedin.com/in/denisbitter/" target="_blank" rel="noopener">LinkedIN</a>,
+          </p>
+      </div>
+      <div class="post-signature">
+        <img src="https://denisbitter.de/images/uschrift" alt="Denis Bitter" class="signature-img" />
+      </div>
+    </article>
+  </template>
+
+  <!-- 404 template -->
+  <template id="tpl-404">
+    <div class="not-found">
+      <p class="not-found-code">404</p>
+      <p class="not-found-msg">Diese Seite existiert nicht.</p>
+      <a href="/" class="back-link" onclick="navigate('/'); return false;">← Zurück</a>
+    </div>
+  </template>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
+  <script src="assets/app.js"></script>
+  <script>
+    (function() {
+      var btn = document.getElementById('themeToggle');
+      var moon = document.getElementById('themeIconMoon');
+      var sun  = document.getElementById('themeIconSun');
+      function updateIcon() {
+        var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+        moon.style.display = isLight ? 'block' : 'none';
+        sun.style.display  = isLight ? 'none'  : 'block';
+        btn.title = isLight ? 'Dark Mode' : 'Light Mode';
+      }
+      updateIcon();
+      btn.addEventListener('click', function() {
+        var isLight = document.documentElement.getAttribute('data-theme') === 'light';
+        if (isLight) {
+          document.documentElement.removeAttribute('data-theme');
+          localStorage.setItem('zp-theme', 'dark');
+        } else {
+          document.documentElement.setAttribute('data-theme', 'light');
+          localStorage.setItem('zp-theme', 'light');
+        }
+        updateIcon();
+      });
+    })();
+  </script>
+
+  <!-- ── Orbit Menu ──────────────────────────────────────── -->
+  <link rel="stylesheet" href="assets/orbit-main.css" />
+  <div id="orbit-root"></div>
+  <script type="module">
+    import('/src/main.jsx').catch(() => import('./assets/orbit.js?v=2026-05-08-portrait'));
+  </script>
+</body>
+</html>

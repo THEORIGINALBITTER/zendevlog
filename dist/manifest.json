@@ -1,0 +1,298 @@
+{
+  "site": {
+    "title": "ZenDev Log",
+    "subtitle": "Das öffentliche Entwicklertagebuch von Denis Bitter",
+    "author": "Denis Bitter",
+    "url": "https://zenpostapp.denisbitter.de"
+  },
+  "posts": [
+    {
+      "slug": "2026-05-14-orbit-manifesto-jenseits-hamburger",
+      "title": "Orbit Manifesto: Warum wir jenseits des Hamburger-Menüs bauen",
+      "subtitle": "Lineare Navigation skaliert Features. Orbit-Navigation skaliert Identität.",
+      "date": "2026-05-14",
+      "tags": [
+        "zenorbit",
+        "manifesto",
+        "navigation",
+        "brand",
+        "devcreator"
+      ],
+      "coverImage": "",
+      "readingTime": 5,
+      "project": "ZenOrbit",
+      "day": "Tag 10",
+      "status": "In Arbeit",
+      "focus": "Positionierung, Navigationsphilosophie, Markenlogik",
+      "problem": "Hamburger-Menüs und Sidebars sind funktional, aber oft austauschbar und identitätsschwach.",
+      "result": "Orbit definiert Navigation als räumliche Marken-Geste statt als reine Linkliste.",
+      "next_step": "Die Orbit-Prinzipien in reale Flows übersetzen und mit Nutzersignalen validieren."
+    },
+    {
+      "slug": "2026-05-15-hamburger-menu-ux-grenzen",
+      "title": "Die UX-Grenzen des Hamburger-Menüs in markengeführten Produkten",
+      "subtitle": "Warum viele Interfaces klar funktionieren, aber keine visuelle Autorität aufbauen.",
+      "date": "2026-05-15",
+      "tags": [
+        "zenorbit",
+        "ux",
+        "navigation",
+        "design",
+        "brand"
+      ],
+      "coverImage": "",
+      "readingTime": 6,
+      "project": "ZenOrbit",
+      "day": "Tag 11",
+      "status": "In Arbeit",
+      "focus": "Problemanalyse, Interaktionsmuster, Entscheidungsrahmen",
+      "problem": "Klassische Menümuster lösen Zugriff, aber selten Orientierung, Rhythmus und Wiedererkennung gleichzeitig.",
+      "result": "Für markengeführte Oberflächen braucht Navigation semantische Tiefe und räumliche Lesbarkeit.",
+      "next_step": "Eine Vergleichsmatrix veröffentlichen: Hamburger vs Sidebar vs Orbit je Produktkontext."
+    },
+    {
+      "slug": "2026-05-16-orbit-vs-hamburger-evidence",
+      "title": "Orbit vs Hamburger: Evidence Log aus der Praxis",
+      "subtitle": "Welche Unterschiede in Orientierung, Trefferquote und Markenwahrnehmung tatsächlich messbar werden.",
+      "date": "2026-05-16",
+      "tags": [
+        "zenorbit",
+        "ux",
+        "evidence",
+        "navigation",
+        "devlog"
+      ],
+      "coverImage": "",
+      "readingTime": 5,
+      "project": "ZenOrbit",
+      "day": "Tag 12",
+      "status": "In Arbeit",
+      "focus": "Validierung, Metriken, Entscheidungsqualität",
+      "problem": "Ohne Messung bleibt jede Navigationsdiskussion Meinung.",
+      "result": "Mit klaren Aufgaben und Metriken wird sichtbar, wann Orbit echten Mehrwert liefert.",
+      "next_step": "Die ersten 10 Nutzersessions auswerten und als Follow-up veröffentlichen."
+    },
+    {
+      "slug": "2026-05-08-zenorbit-design-principles",
+      "title": "ZenOrbit Design Principles: Interface-Autorenschaft statt UI-Baukasten",
+      "subtitle": "Wie ZenOrbit als visuelles Betriebssystem für Markenidentität gedacht ist — semantisch, räumlich, production-ready.",
+      "date": "2026-05-08",
+      "tags": [
+        "zenorbit",
+        "design",
+        "brand",
+        "interface-framework",
+        "devcreator"
+      ],
+      "coverImage": "",
+      "readingTime": 6,
+      "project": "ZenOrbit",
+      "day": "Tag 09",
+      "status": "In Arbeit",
+      "focus": "Designprinzipien, Navigationssemantik, Framework-Identität",
+      "problem": "Viele Builder erzeugen austauschbare Oberflächen, weil sie nur in Templates und Presets denken.",
+      "result": "ZenOrbit trennt sich bewusst vom Baukasten-Modell: Semantik, räumliche Logik und kontrollierte Choreografie bilden eine wiedererkennbare Interface-Signatur.",
+      "next_step": "Die Principles als feste Referenz im Guide verankern und pro Release gegen diese Prinzipien reviewen."
+    },
+    {
+      "slug": "2026-05-13-brand-build-30-tage",
+      "title": "Brand Build: Die ersten 30 Tage ZenDev als HighClass-Format",
+      "subtitle": "Vom Tagebuch zur klaren Marke mit wiedererkennbarem Rhythmus.",
+      "date": "2026-05-13",
+      "tags": [
+        "brand",
+        "zendev",
+        "devlog",
+        "build-in-public"
+      ],
+      "coverImage": "",
+      "readingTime": 4,
+      "project": "ZenDev",
+      "day": "Tag 08",
+      "status": "In Arbeit",
+      "focus": "Brand-System, Rhythmus, Qualitätsstandard",
+      "problem": "Ohne klaren Rahmen bleibt Content inkonsistent und schwer skalierbar.",
+      "result": "Feste Formate, klare Sprache und strukturierte Post-Architektur erhöhen Wiedererkennbarkeit.",
+      "next_step": "Monatliche Brand-Review einführen: was wirkt, was streichen, was verdoppeln."
+    },
+    {
+      "slug": "2026-05-12-devcreator-workflow-repurposing",
+      "title": "DevCreator Workflow: Aus einem Build-Log werden LinkedIn, Insta und Newsletter",
+      "subtitle": "Ein Source-of-Truth-Post, drei kanalgenaue Ableitungen ohne Content-Chaos.",
+      "date": "2026-05-12",
+      "tags": [
+        "devcreator",
+        "content-system",
+        "newsletter",
+        "zendev"
+      ],
+      "coverImage": "",
+      "readingTime": 4,
+      "project": "ZenDev",
+      "day": "Tag 07",
+      "status": "In Arbeit",
+      "focus": "Repurposing, Distribution, Konsistenz",
+      "problem": "Kanal-spezifischer Content frisst Zeit und zerlegt die Kernbotschaft.",
+      "result": "Ein standardisierter Export-Flow spart Zeit und hält die Markenstimme konsistent.",
+      "next_step": "Template-Bibliothek mit 10 Hook-Varianten für LinkedIn/Insta aufbauen."
+    },
+    {
+      "slug": "2026-05-11-private-insight-scope-fokus",
+      "title": "Private Insight: Warum ich Scope radikal begrenze, obwohl ich viele Ideen parallel habe",
+      "subtitle": "Fokus schlägt Feature-Liste: Ich entscheide nach Wirkung, nicht nach Lautstärke.",
+      "date": "2026-05-11",
+      "tags": [
+        "private-insight",
+        "brand",
+        "devlog",
+        "founder"
+      ],
+      "coverImage": "",
+      "readingTime": 4,
+      "project": "ZenDev",
+      "day": "Tag 06",
+      "status": "In Arbeit",
+      "focus": "Entscheidungslogik, Priorisierung, Founder-Realität",
+      "problem": "Zu viele parallele Ideen verwässern Story, Delivery und Brand-Klarheit.",
+      "result": "Ein enger Entscheidungsrahmen sorgt für bessere Releases und klarere Außenwirkung.",
+      "next_step": "Öffentliche Prioritätenliste für die nächsten 14 Tage veröffentlichen."
+    },
+    {
+      "slug": "2026-05-10-release-dynamische-seo-social-meta",
+      "title": "Release Note: Dynamische SEO- und Social-Meta pro Post sind jetzt live",
+      "subtitle": "OG, Twitter und Canonical reagieren jetzt auf Route und Post-Inhalt.",
+      "date": "2026-05-10",
+      "tags": [
+        "release",
+        "seo",
+        "zendev",
+        "brand"
+      ],
+      "coverImage": "",
+      "readingTime": 3,
+      "project": "ZenDev",
+      "day": "Tag 05",
+      "status": "Live",
+      "focus": "SEO-Basis, Social Previews, Auffindbarkeit",
+      "problem": "Statische Meta-Daten limitieren Suchsichtbarkeit und Social-CTR.",
+      "result": "Jeder Post trägt jetzt eigenen Title, Description und Image-Kontext für bessere Distribution.",
+      "next_step": "Social-Klickrate je Post tracken und Titel/Subtitle auf CTR optimieren."
+    },
+    {
+      "slug": "2026-05-09-zenorbit-mobile-pass",
+      "title": "ZenOrbit Mobile Pass: Wie ich das Radial-Menü für echte Daumen-Nutzung umgebaut habe",
+      "subtitle": "Weniger visuelle Spielerei, mehr klare Trefferzonen und schneller Zugriff.",
+      "date": "2026-05-09",
+      "tags": [
+        "devlog",
+        "zenorbit",
+        "mobile-ux",
+        "devcreator"
+      ],
+      "coverImage": "",
+      "readingTime": 4,
+      "project": "ZenDev",
+      "day": "Tag 04",
+      "status": "In Arbeit",
+      "focus": "Mobile UX, Hit-Areas, Menüführung",
+      "problem": "Das Menü sah gut aus, war aber in realer Einhand-Nutzung nicht konsequent genug.",
+      "result": "Klarere Touch-Zonen, stabilere Positionierung und deutlich schnellere Bedienung auf Mobile.",
+      "next_step": "A/B-Check mit 2 Varianten und Entscheidung über den finalen Default."
+    },
+    {
+      "slug": "2026-05-08-devcreator-content-os",
+      "title": "DevCreator Setup: Mein Content-OS für Reichweite und Newsletter",
+      "subtitle": "Ich baue ein System, das jeden Build in SEO, LinkedIn, Instagram und Newsletter übersetzt.",
+      "date": "2026-05-08",
+      "tags": [
+        "devlog",
+        "devcreator",
+        "content-system",
+        "zendev",
+        "brand"
+      ],
+      "coverImage": "",
+      "readingTime": 4,
+      "project": "ZenDev",
+      "day": "Tag 02",
+      "status": "In Arbeit",
+      "focus": "Content-Betriebssystem, Distribution, Newsletter-Funnel",
+      "problem": "Ich baue parallel an ZenPost Studio, ZenOrbit und weiteren Apps, aber ohne klares Publishing-System geht Reichweite verloren.",
+      "result": "Ein einheitlicher Ablauf steht: Website-first, danach LinkedIn und Instagram aus derselben Quelle. Newsletter-CTA bleibt fester Bestandteil jedes Posts.",
+      "next_step": "Die nächsten 7 Tage täglich veröffentlichen, Hooks testen und Newsletter-Signups pro Post messen."
+    },
+    {
+      "slug": "2026-05-08-private-insight-highclass-brand",
+      "title": "Private Insight: Warum ich ZenDev als HighClass Brand aufbaue",
+      "subtitle": "Nicht nur Features shippen, sondern Haltung, Klarheit und Wiedererkennung systematisch aufbauen.",
+      "date": "2026-05-08",
+      "tags": [
+        "private-insight",
+        "brand",
+        "devlog",
+        "zendev"
+      ],
+      "coverImage": "",
+      "readingTime": 4,
+      "project": "ZenDev",
+      "day": "Tag 03",
+      "status": "In Arbeit",
+      "focus": "Brand-Positionierung, persönlicher Einblick, langfristige Richtung",
+      "problem": "Wenn ich nur technische Updates poste, verstehen viele nicht, wofür die Gesamtmarke steht.",
+      "result": "ZenDev trennt jetzt klar zwischen Build-Prozess, persönlichem Kontext und Brand-Richtung. So wird der Content nicht nur informativ, sondern identitätsstiftend.",
+      "next_step": "Jede Woche zwei private Einblicke veröffentlichen und mit messbaren Produkt-Updates verknüpfen."
+    },
+    {
+      "slug": "design-guide-denis-bitter",
+      "title": "Design Guide — Denis Bitter",
+      "subtitle": "Die Designlinie hinter Code, Tools und Inhalten",
+      "date": "2026-04-14",
+      "tags": [
+        "design",
+        "branding",
+        "zendev",
+        "designguide",
+        "styleguide"
+      ],
+      "coverImage": "",
+      "readingTime": 6,
+      "project": "ZenDev",
+      "status": "Living Document",
+      "focus": "Designphilosophie, Farbwelt, Typografie, Motion, Haltung",
+      "series": "ZenDev Grundlagen"
+    },
+    {
+      "slug": "tag-01-zendev-start",
+      "title": "Tag 01 – ZenDev startet",
+      "subtitle": "Ich ziehe meine Produktentwicklung in ein echtes Daily-Log-Format",
+      "date": "2026-04-14",
+      "tags": [
+        "devlog",
+        "daily-log",
+        "zendev",
+        "zenpost",
+        "zenorbit"
+      ],
+      "coverImage": "",
+      "readingTime": 5,
+      "project": "ZenDev",
+      "day": "Tag 01",
+      "status": "In Arbeit",
+      "focus": "Branding, Log-Struktur und erstes Daily-Log-Format",
+      "today": [
+        "ZenPostApp in ZenDev Log umgedacht",
+        "Daily-Log-Format mit Snapshot-Feldern definiert",
+        "Ersten echten Start-Eintrag angelegt"
+      ],
+      "blockers": [
+        "Branding und Domains sind noch nicht final getrennt",
+        "Weitere Alt-Texte aus ZenPost Studio müssen später nachgezogen werden"
+      ],
+      "next": [
+        "Nächste Einträge als echte Tageslogs schreiben",
+        "Tags für ZenPost, ZenOrbit und Releases schärfen",
+        "Archiv- und Serienlogik ergänzen"
+      ]
+    }
+  ]
+}

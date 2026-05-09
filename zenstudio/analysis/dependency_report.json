@@ -1,0 +1,27 @@
+{
+  "prodCount": 3,
+  "devCount": 6,
+  "top": [
+    "@denisbitter/bitter-button-menu",
+    "framer-motion",
+    "react-router-dom"
+  ],
+  "lockfiles": [
+    "package-lock.json"
+  ],
+  "npm": {
+    "dependencies": [
+      "@denisbitter/bitter-button-menu",
+      "framer-motion",
+      "react-router-dom"
+    ],
+    "devDependencies": [
+      "@tailwindcss/vite",
+      "@vitejs/plugin-react",
+      "react",
+      "react-dom",
+      "tailwindcss",
+      "vite"
+    ]
+  }
+}

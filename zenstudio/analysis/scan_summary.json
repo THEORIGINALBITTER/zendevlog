@@ -1,0 +1,93 @@
+{
+  "scanVersion": "1.0.0",
+  "createdAt": "2026-04-18T11:04:58.237Z",
+  "projectType": [
+    "node",
+    "react",
+    "vite"
+  ],
+  "signals": {
+    "packageJson": true,
+    "composerJson": false,
+    "tauri": false,
+    "docker": false,
+    "python": false,
+    "rust": false,
+    "go": false,
+    "prisma": false,
+    "migrations": false
+  },
+  "project": {
+    "name": "zenpostapp",
+    "description": "No description available",
+    "version": "0.1.0"
+  },
+  "structure": {
+    "topFolders": [
+      "assets",
+      "docs",
+      "php",
+      "posts",
+      "src"
+    ],
+    "classified": {
+      "app": [
+        "src"
+      ],
+      "ui": [
+        "src/components"
+      ],
+      "logic": [],
+      "backend": [],
+      "docs": [
+        "docs"
+      ],
+      "tests": [],
+      "scripts": [],
+      "assets": [
+        "assets"
+      ]
+    },
+    "hasTests": false,
+    "hasCI": false,
+    "hasDocs": true,
+    "hasDocker": false
+  },
+  "build": {
+    "scripts": [
+      "build",
+      "build:orbit",
+      "deploy:pack",
+      "watch:orbit",
+      "dev"
+    ],
+    "hasTestScript": false,
+    "entrypoints": []
+  },
+  "dependencies": {
+    "prodCount": 3,
+    "devCount": 6,
+    "top": [
+      "@denisbitter/bitter-button-menu",
+      "framer-motion",
+      "react-router-dom"
+    ],
+    "lockfiles": [
+      "package-lock.json"
+    ]
+  },
+  "fileTypes": [
+    "css",
+    "html",
+    "ico",
+    "js",
+    "json",
+    "jsx",
+    "md",
+    "php",
+    "png",
+    "toml",
+    "webmanifest",
+    "webp"
+  ]
+}
